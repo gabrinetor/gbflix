@@ -10,8 +10,8 @@
         },
         "videos": [
           {
-            "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+            "titulo": "Legends Never Die",
+            "url": "https://www.youtube.com/watch?v=r6zIGXun57U"
           },
           {
             "titulo": "SEO com React",
@@ -100,6 +100,28 @@
         ]
       },
       {
+        "titulo": "Design", 
+        "cor": "deeppink",
+        "videos": [
+          {
+            "titulo": "Adobe Illustrator",
+            "url": "https://www.youtube.com/watch?v=UMsA_Z820Vc"
+          }, 
+          {
+            "titulo": "Mesa Digitadora",
+            "url": "https://www.youtube.com/watch?v=mbqL8nkw_ME"
+          },
+          {
+            "titulo": "Magic Blender",
+            "url": "https://www.youtube.com/watch?v=hNhkE-brr7o&t=557s"
+          }, 
+          {
+            "titulo": "Conheça o Krita",
+            "url": "https://www.youtube.com/watch?v=fYoJeqst0N0"
+          }
+        ]
+      },
+      {
         "titulo": "Filmes",
         "cor": "orange",
         "videos": [
@@ -108,16 +130,16 @@
             "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
           },
           {
-            "titulo": "Gattaca",
-            "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+            "titulo": "Avengers: Endgame",
+            "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
           },
           {
-            "titulo": "A Chegada",
-            "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+            "titulo": "Joker",
+            "url": "https://www.youtube.com/watch?v=zAGVQLHvwOY"
           },
           {
-            "titulo": "Feitiço do Tempo",
-            "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+            "titulo": "Rocketman",
+            "url": "https://www.youtube.com/watch?v=S3vO8E2e6G0"
           }
         ]
       },
@@ -125,13 +147,21 @@
         "titulo": "Games",
         "cor": "red",
         "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/formacao-jogos-unity"
+          "text": "O que aprendi fracassando na programação de jogos",
+          "url": "https://medium.com/neworder/duas-coisas-que-aprendi-fracassando-na-programacao-de-jogos-b5b0e385c9e9"
         },
         "videos": [
           {
-            "titulo": "Final Fantasy 7",
-            "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+            "titulo": "Marvel's Spider-Man: Miles Morales - PS5",
+            "url": "https://www.youtube.com/watch?v=gHzuHo80U2M"
+          },
+          {
+            "titulo": "The Sims 5",
+            "url": "https://www.youtube.com/watch?v=H2sf_-fn5_k"
+          },
+          {
+            "titulo": "League of Legends",
+            "url": "https://www.youtube.com/watch?v=HGPoGtSBhu0"
           },
           {
             "titulo": "Assassins Creed Valhalla",
@@ -151,12 +181,13 @@
           }
         ]
       },
+
       {
-        "titulo": "Aprendendo a aprender tecnologia",
+        "titulo": "Motivação",
         "cor": "#6b5be2",
         "link_extra": {
-          "text": "Curso sobre aprendizado na Alura",
-          "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+          "text": "Deixe de ser um profissional limitado aprendendo o básico",
+          "url": "http://gabsferreira.com/deixe-de-ser-um-profissional-limitando-aprendendo-o-basico/"
         },
         "videos": [
           {
@@ -164,8 +195,16 @@
             "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
           },
           {
+            "titulo": "Aprendendo a aprender",
+            "url": "https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=438s"
+          },
+          {
             "titulo": "Faculdade",
             "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          },
+          {
+            "titulo": "Aprender Dói",
+            "url": "https://www.youtube.com/watch?v=HEaIsKm-pao"
           },
           {
             "titulo": "Frameworks",
