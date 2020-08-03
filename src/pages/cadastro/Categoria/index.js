@@ -4,28 +4,77 @@ import PageDefault from '../../../components/PageDefault';
 
 function CadastroCategoria() {
   const [categorias, setCategorias] = useState(['Teste']);
-  const [nomeDaCategoria, setNomeDaCategoria] = useState('Valor Inicial');
+  
+  const valoresIniciais = {
+    nome: 'Categoria Inicial',
+    descricao: 'Descrição inicial',
+    cor: '#000',
+  }
+  //const [nomeDaCategoria, setNomeDaCategoria] = useState(valoresIniciais);
+  const [values, setValues] = useState(valoresIniciais);
+
+  function setValue(chave, valor) {
+
+    // chave: nome, descriçao, ....
+    setValues({
+      ...values,
+      [chave]: valor,  //pega os valores da chave e define o valor pra ela [essa chave é um valor dinamico] //chave: nome | nome: 'valor'
+    })
+  }
+
+  function handleChange(infosDoEvento) {
+    // setNomeDaCategoria(infosDoEvento.target.value);
+    setValue(
+      infosDoEvento.target.getAttribute('name'), 
+      infosDoEvento.target.value
+    ); 
+  }
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria</h1>
+      <h1>Cadastro de Categoria: {values.nome}</h1>
 
-      <form onSubmit={ function hendleSubmit(infosDoEvento) {
+      <form onSubmit={ function handleSubmit(infosDoEvento) {
           infosDoEvento.preventDefault();
-          console.log('Você tentou enviar o form');
-      } }>
+          setCategorias([
+            ...categorias,
+            values  //nomeDaCategoria
+          ]);
+      }}>
 
+        <div>
         <label>
           Nome da Categoria:
           <input
             type="text"
-            value={nomeDaCategoria}
-            onChange={   function funcaoHandlerQueOErroPediu(infosDoEvento) {
-              setNomeDaCategoria(infosDoEvento.target.value);
-            }}
-
+            value={values.nome} //value={nomeDaCategoria} //value={values['nome']} 
+            name="nome"
+            onChange={ handleChange }
           />
         </label>
+        </div>
+
+        <div>
+        <label>
+          Descrição: 
+          <textarea
+            type="text"
+            value={values.descricao} //value={nomeDaCategoria}
+            name="descricao"
+            onChange={ handleChange }
+          />
+        </label>
+
+        <label>
+          Cor: 
+          <input
+            type="color"
+            value={values.cor}  //value={nomeDaCategoria}
+            name="cor"
+            onChange={ handleChange }
+          />
+        </label>
+        </div>
 
         <button>
           Cadastrar
@@ -34,9 +83,9 @@ function CadastroCategoria() {
       </form>
 
       <ul>
-        {categorias.map( (categoria) => {
+        {categorias.map( (categoria, indice) => {
           return (
-            <li key={categoria}>
+            <li key={`${categoria}${indice}`}>
               {categoria}
             </li>
           )
