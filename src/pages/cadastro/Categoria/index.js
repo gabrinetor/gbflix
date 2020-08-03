@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 
 function CadastroCategoria() {
+  const [categorias, setCategorias] = useState(['Teste']);
   const [nomeDaCategoria, setNomeDaCategoria] = useState('Valor Inicial');
 
   return (
     <PageDefault>
       <h1>Cadastro de Categoria</h1>
 
-      <form>
+      <form onSubmit={ function hendleSubmit(infosDoEvento) {
+          infosDoEvento.preventDefault();
+          console.log('Você tentou enviar o form');
+      } }>
 
         <label>
           Nome da Categoria:
@@ -17,8 +21,6 @@ function CadastroCategoria() {
             type="text"
             value={nomeDaCategoria}
             onChange={   function funcaoHandlerQueOErroPediu(infosDoEvento) {
-              console.log('[nomeDaCategoria] ', nomeDaCategoria);
-              console.log('[infosDoEvento.target.value]', infosDoEvento.target.value);
               setNomeDaCategoria(infosDoEvento.target.value);
             }}
 
@@ -31,6 +33,15 @@ function CadastroCategoria() {
         
       </form>
 
+      <ul>
+        {categorias.map( (categoria) => {
+          return (
+            <li key={categoria}>
+              {categoria}
+            </li>
+          )
+        })}
+      </ul>
 
       <Link to="/">
         Ir para home

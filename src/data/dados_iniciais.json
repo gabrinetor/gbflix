@@ -1,17 +1,16 @@
 {
     "categorias": [
       {
-        "titulo": "Front End",
-        "link": "https://www.alura.com.br/formacao-front-end",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        },
+        "titulo": "FullStack Web",
+        "cor": "deepskyblue",
         "videos": [
           {
             "titulo": "Legends Never Die",
             "url": "https://www.youtube.com/watch?v=r6zIGXun57U"
+          },
+          {
+            "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+            "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
           },
           {
             "titulo": "SEO com React",
@@ -22,8 +21,24 @@
             "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
           },
           {
+            "titulo": "API: Dicionário do Programador",
+            "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          },
+          {
+            "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+            "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          },
+          {
             "titulo": "Pare de chutar e aprenda a display: inline #01",
             "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          },
+          {
+            "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+            "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          },
+          {
+            "titulo": "Usando Git Direito",
+            "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
           },
           {
             "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
@@ -44,54 +59,28 @@
         ]
       },
       {
-        "titulo": "Back End",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        },
-        "videos": [
-          {
-            "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-            "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-          },
-          {
-            "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-            "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-          },
-          {
-            "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-            "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-          },
-          {
-            "titulo": "API: Dicionário do Programador",
-            "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-          }, 
-          {
-            "titulo": "Usando Git Direito",
-            "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-          }
-        ]
-      },
-      {
         "titulo": "Data Science e Inteligência Artificial",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/formacao-data-science"
-        },
+        "cor": "#00C86F",
         "videos": [
           {
             "titulo": "Teste de Turing",
             "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
           },
           {
-            "titulo": "O que é Data Science?",
-            "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+            "titulo": "Os Desafios da Ciência de Dados",
+            "url": "https://www.youtube.com/watch?v=oiaqF8JotbM"
+          },
+          {
+            "titulo": "Ciência de Dados",
+            "url": "https://www.youtube.com/watch?v=ykSILAQQu6o"
           },
           {
             "titulo": "Melhor forma de aprender Python",
             "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          },
+          {
+            "titulo": "Análise de Dados com o poder do @Google!",
+            "url": "https://www.youtube.com/watch?v=ynj9SNAKpog"
           },
           {
             "titulo": "Como ingressar no mercado de Data Science?",
@@ -100,30 +89,42 @@
         ]
       },
       {
-        "titulo": "Design", 
-        "cor": "deeppink",
+        "titulo": "Teste e Qualidade de Software",
+        "cor": "#9cd33b",
+        "link_extra": {
+          "text": "Tipos de Teste de Software",
+          "url": "https://medium.com/@anne_caroline/principais-tipos-de-teste-de-software-4aeeb7fd23f1"
+        },
         "videos": [
           {
-            "titulo": "Adobe Illustrator",
-            "url": "https://www.youtube.com/watch?v=UMsA_Z820Vc"
+            "titulo": "Teste de Software",
+            "url": "https://www.youtube.com/watch?v=NnamjfPYuiY"
           }, 
           {
-            "titulo": "Mesa Digitadora",
-            "url": "https://www.youtube.com/watch?v=mbqL8nkw_ME"
+            "titulo": "Selenium com Python",
+            "url": "https://www.youtube.com/watch?v=wiA6PBz0Xu0"
+          }, 
+          {
+            "titulo": "Testes Automatizados",
+            "url": "https://www.youtube.com/watch?v=-TDgy8lhq-k"
           },
           {
-            "titulo": "Magic Blender",
-            "url": "https://www.youtube.com/watch?v=hNhkE-brr7o&t=557s"
+            "titulo": "TDD",
+            "url": "https://www.youtube.com/watch?v=bLdEypr2e-8"
           }, 
           {
-            "titulo": "Conheça o Krita",
-            "url": "https://www.youtube.com/watch?v=fYoJeqst0N0"
+            "titulo": "Cypress",
+            "url": "https://www.youtube.com/watch?v=HfdqHkwFhYY"
+          },
+          {
+            "titulo": "UX Usabilidade",
+            "url": "https://www.youtube.com/watch?v=FJhMCi07T4A"
           }
         ]
       },
       {
         "titulo": "Filmes",
-        "cor": "orange",
+        "cor": "darkorange",
         "videos": [
           {
             "titulo": "Interestellar",
@@ -140,6 +141,18 @@
           {
             "titulo": "Rocketman",
             "url": "https://www.youtube.com/watch?v=S3vO8E2e6G0"
+          }, 
+          {
+            "titulo": "Parasite",
+            "url": "https://www.youtube.com/watch?v=5xH0HfJHsaY"
+          }, 
+          {
+            "titulo": "John Wick 3",
+            "url": "https://www.youtube.com/watch?v=M7XM597XO94"
+          }, 
+          {
+            "titulo": "Ghost in the Shell", 
+            "url": "https://www.youtube.com/watch?v=SvBVDibOrgs"
           }
         ]
       },
@@ -178,10 +191,39 @@
           {
             "titulo": "Pokémon Let's Go Pikachu/Eevee",
             "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          },
+          {
+            "titulo": "Best Games Ever",
+            "url": "https://www.youtube.com/watch?v=pdD2vMgAdh4"
           }
         ]
       },
-
+      {
+        "titulo": "Design", 
+        "cor": "#E879DB",
+        "videos": [
+          {
+            "titulo": "Adobe Illustrator",
+            "url": "https://www.youtube.com/watch?v=UMsA_Z820Vc"
+          }, 
+          {
+            "titulo": "Mesa Digitadora",
+            "url": "https://www.youtube.com/watch?v=mbqL8nkw_ME"
+          },
+          {
+            "titulo": "Magic Blender",
+            "url": "https://www.youtube.com/watch?v=hNhkE-brr7o&t=557s"
+          }, 
+          {
+            "titulo": "Conheça o Krita",
+            "url": "https://www.youtube.com/watch?v=fYoJeqst0N0"
+          }, 
+          {
+            "titulo": "Photoshop",
+            "url": "https://www.youtube.com/watch?v=9QsL_Ul_lNU"
+          }
+        ]
+      },
       {
         "titulo": "Motivação",
         "cor": "#6b5be2",
@@ -199,6 +241,18 @@
             "url": "https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=438s"
           },
           {
+            "titulo": "Estudar Programação",
+            "url": "https://www.youtube.com/watch?v=j2qCJf-oPoc&t=319s"
+          },
+          {
+            "titulo": "O que a maioria das escolas não ensina",
+            "url": "https://www.youtube.com/watch?v=nKIu9yen5nc"
+          },
+          {
+            "titulo": "Think Different",
+            "url": "https://www.youtube.com/watch?v=ZtMzB5CoekE"
+          },
+          {
             "titulo": "Faculdade",
             "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
           },
@@ -211,12 +265,16 @@
             "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
           },
           {
-            "titulo": "A mágica do Aprendizado",
-            "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+            "titulo": "Just Go Away!",
+            "url": "https://www.youtube.com/watch?v=7woDfJ6II0U"
           },
           {
             "titulo": "Como aprender a programar?",
             "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          },
+          {
+            "titulo": "Não desista!",
+            "url": "https://www.youtube.com/watch?v=HUoIpLInNZI"
           }
         ]
       }
