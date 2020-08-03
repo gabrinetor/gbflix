@@ -25,6 +25,10 @@
             "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
           },
           {
+            "titulo": "Ideias para Portfolios e GitHub",
+            "url": "https://www.youtube.com/watch?v=ROeA2H-EQ6w&feature=emb_title"
+          },
+          {
             "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
             "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
           },
@@ -51,6 +55,10 @@
           {
             "titulo": "Novidades do Angular v9",
             "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          },
+          {
+            "titulo": "Flappy Bird",
+            "url": "https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej"
           },
           {
             "titulo": "Base para aprender os frameworks",
@@ -250,11 +258,15 @@
           },
           {
             "titulo": "Think Different",
-            "url": "https://www.youtube.com/watch?v=ZtMzB5CoekE"
+            "url": "https://www.youtube.com/watch?v=_hobgOFDekg"
           },
           {
             "titulo": "Faculdade",
             "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          },
+          {
+            "titulo": "Aprendizado",
+            "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
           },
           {
             "titulo": "Aprender Dói",
