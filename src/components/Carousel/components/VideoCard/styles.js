@@ -17,7 +17,7 @@ export const VideoCardContainer = styled.a`
   position: relative;
   display: flex;
   align-items: flex-end;
-  padding: 16px;
+  padding: 26px;
   transition: opacity .3s;
   &:hover {
     transform: scale(1.1); 
@@ -27,6 +27,6 @@ export const VideoCardContainer = styled.a`
   }
   
   &:not(:first-child) {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 `;

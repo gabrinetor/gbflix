@@ -8,7 +8,7 @@ import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 
 // Desafio master blaster na descrição
-const Pagina404 = () => (<div>Página 404</div>);
+const Pagina404 = () => (<div><h1>Página 404</h1></div>);
 
 ReactDOM.render(
   <BrowserRouter>

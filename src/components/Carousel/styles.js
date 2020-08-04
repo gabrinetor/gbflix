@@ -18,7 +18,7 @@ export const Title = styled.h3`
 `;
 
 export const ExtraLink = styled.a`
-  margin-left: 16px;
+  margin-left: 12px;
   text-decoration: none;
   transition: opacity .3s;
   &:hover,
@@ -42,13 +42,13 @@ export const VideoCardList = styled.ul`
   flex-direction: row;
   
   li {
-    margin-right: 16px;
+    margin-right: 12px;
   }
 `;
 
 export const VideoCardGroupContainer = styled.section`
   color: white;
-  min-height: 200px;
-  margin-left: 3%;
+  min-height: 150px;
+  margin-left: 2%;
   margin-bottom: 16px;
 `;
